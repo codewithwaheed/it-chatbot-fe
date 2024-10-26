@@ -11,7 +11,7 @@ const ChatWindow = ({
   return (
     <div className="w-full max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
       <div className="bg-blue-500 text-white text-lg px-4 py-2 flex justify-between items-center">
-        <h2>IT Copilot Assisatant</h2>
+        <h2>Pulsar - IT Copilot Assisatant</h2>
         <span
           className={`text-xs ${
             socketConnected ? "text-green-300" : "text-red-400"
